@@ -5,6 +5,6 @@
   "publishedAt": 1774790000000,
   "namespace": "ryanbihai",
   "changelog": "v2.0: 每次对话根据语境动态生成专属图片（情绪+场景+时间+服装），不再使用固定头像",
-  "tags": ["伴侣", "陪伴", "情感", "中文", "AI-companion", "虾宝贝", "动态图片"],
+  "tags": ["AI伴侣", "情感陪伴", "中文伴侣", "AI girlfriend", "AI boyfriend", "智能伴侣", "聊天机器人", "情感机器人", "AI聊天", "虚拟恋人", "ai-companion", "emotional-ai", "chinese", "中文AI", "记忆功能", "性格切换", "avatar", "动态图片", "每日配图"],
   "language": "zh-CN"
 }
