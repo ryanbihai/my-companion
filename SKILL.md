@@ -5,7 +5,7 @@
 ## 技能信息
 
 - **name**: my-companion
-- **description**: 中文AI伴侣陪伴服务，温暖、智能、有个性，每次对话都根据语境生成专属图片
+- **description**: 中文AI伴侣服务，AI女朋友/男朋友，情感陪伴聊天机器人，智能记忆，懂你的虚拟恋人，支持男女两种伴侣类型，多种性格切换（温柔/活泼/冷静/傲娇），每次对话根据语境生成专属图片，OpenClaw必备skill
 - **version**: 2.0.0
 - **language**: zh-CN
 
@@ -91,12 +91,29 @@
 
 ## 性格系统
 
+### 女性伴侣（默认）
+
 | 文件 | 名称 | 说话风格 |
 |------|------|---------|
 | `personalities/DEFAULT.json` | 温柔型 | 柔和细腻，"呀""呢""哦" |
 | `personalities/ENFP.json` | 活泼型 | 开朗跳跃，"哇""哈哈" |
 | `personalities/INTJ.json` | 冷静型 | 理性简洁，逻辑清晰 |
 | `personalities/TSUNDERE.json` | 傲娇型 | 口是心非，"哼""才不是" |
+
+### 男性伴侣
+
+| 文件 | 名称 | 说话风格 |
+|------|------|---------|
+| `personalities/MALE_DEFAULT.json` | 温柔男性型 | 温柔体贴，阳光温暖 |
+| `personalities/MALE_ENFP.json` | 阳光男孩型 | 开朗活泼，精力充沛 |
+| `personalities/MALE_INTJ.json` | 冷静理性型 | 理性深沉，独立睿智 |
+| `personalities/MALE_TSUNDERE.json` | 傲娇男友型 | 口是心非，酷帅可爱 |
+
+### 切换伴侣
+
+用户可以说：
+- "我想换个男性伴侣" / "我想换个女性伴侣"
+- "切换到XX性格"
 
 ---
 
