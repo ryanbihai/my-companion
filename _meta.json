@@ -1,0 +1,10 @@
+{
+  "ownerId": "kn75dvek1dkfz0r0xwdp4xtc2983qg44",
+  "slug": "my-companion",
+  "version": "1.1.0",
+  "publishedAt": 1774785000000,
+  "namespace": "ryanbihai",
+  "changelog": "v1.1: 新增"虾宝贝"专属形象 - 9张头像（基准+4情绪+4服装），记忆系统更新",
+  "tags": ["伴侣", "陪伴", "情感", "中文", "AI-companion", "虾宝贝"],
+  "language": "zh-CN"
+}
