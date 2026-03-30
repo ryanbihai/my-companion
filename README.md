@@ -1,9 +1,13 @@
 # 💕 我的伴侣 (my-companion)
 
-> 中文 AI 伴侣陪伴服务 — 温暖、智能、有个性，每次对话都配有图片
+> AI Companion / 虚拟恋人 / 情感陪伴机器人 — 中英双语支持，每次对话生成专属图片
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-OpenClaw-green.svg)](https://openclaw.ai)
+[![ClawHub](https://img.shields.io/badge/ClawHub-v2.5.0-orange.svg)](https://clawhub.ai/skill/ryanbihai/my-companion)
+[![Downloads](https://img.shields.io/badge/Downloads-20+-blue.svg)](https://clawhub.ai/skill/ryanbihai/my-companion)
+
+**Keywords:** AI女友 | AI男朋友 | AI companion | 虚拟恋人 | 情感陪伴 | 中文聊天机器人 | emotional chatbot | personality AI | bilingual companion | avatar generation
 
 ---
 
