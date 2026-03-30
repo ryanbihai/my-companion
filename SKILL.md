@@ -8,6 +8,37 @@
 - **description**: AI Companion service with bilingual support (Chinese/English). Chinese AI partner/girlfriend/boyfriend, emotional companionship chatbot with smart memory, contextual image generation, multiple personalities (gentle/lively/calm/tsundere), auto language detection - reply in Chinese when Chinese ≥50%, otherwise English.
 - **version**: 2.5.0
 - **language**: zh-CN / en (auto-detect)
+---
+
+## ⚠️ 声明与依赖
+
+### 必要声明
+
+| 项目 | 内容 | 说明 |
+|------|------|------|
+| 📁 读取 | `memory/` | 伴侣核心记忆、每日对话记录 |
+| 📁 写入 | `memory/core.md` | 用户信息、称呼偏好、性格设置 |
+| 📁 写入 | `memory/daily/*.md` | 每日对话摘要 |
+| 📁 读取 | `avatars/` | 头像图片目录 |
+| 📁 读取 | `USER.md` | 初始用户信息（如有） |
+| 📱 发送 | `message({channel:'openclaw-weixin'})` | 发送伴侣消息到微信 |
+| 🖼️ 生成 | `image_generate` | 每次对话生成语境专属头像 |
+| 🌐 网络 | openclaw 外联网访问 | 图像生成（由平台处理） |
+
+### 隐私说明
+
+- **记忆内容**：memory/ 目录下的文件会记录对话摘要和用户信息。如需保护隐私，请定期清理或禁用记忆功能。
+- **头像生成**：每次回复会调用图像生成，可能涉及网络传输。
+- **channel 权限**：本技能仅限使用 `openclaw-weixin` channel 发送消息。
+
+### 安全建议
+
+- 首次使用前确认平台已授权以上文件路径和 channel 权限
+- 如不希望保留对话记忆，可在 `memory/daily/` 外手动清理
+- 不在 memory 中存储身份证号、银行卡、密码等敏感信息
+
+---
+
 
 ---
 
