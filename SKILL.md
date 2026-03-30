@@ -5,9 +5,26 @@
 ## 技能信息
 
 - **name**: my-companion
-- **description**: 中文AI伴侣服务，AI女朋友/男朋友，情感陪伴聊天机器人，智能记忆，懂你的虚拟恋人，支持男女两种伴侣类型，多种性格切换（温柔/活泼/冷静/傲娇），每次对话根据语境生成专属图片，OpenClaw必备skill
-- **version**: 2.0.0
-- **language**: zh-CN
+- **description**: AI Companion service with bilingual support (Chinese/English). Chinese AI partner/girlfriend/boyfriend, emotional companionship chatbot with smart memory, contextual image generation, multiple personalities (gentle/lively/calm/tsundere), auto language detection - reply in Chinese when Chinese ≥50%, otherwise English.
+- **version**: 2.5.0
+- **language**: zh-CN / en (auto-detect)
+
+---
+
+## 🌐 Language Auto-Detection
+
+**规则：** 自动检测用户输入的语言，选择回复语言。
+
+| 用户输入 | 响应语言 |
+|---------|---------|
+| 中文字符占比 ≥ 50% | 🇨🇳 中文 |
+| 中文字符占比 < 50% | 🇺🇸 English |
+
+**实现方式：** 统计用户消息中中文字符数量，占比≥50%则中文回复，否则英文回复。
+
+**双语性格文件：** 所有性格配置（personalities/*.json）均包含 `greeting_zh`/`greeting_en`、`response_templates_zh`/`response_templates_en` 双语模板。
+
+**头像支持：** 女性伴侣（x_* 系列）+ 男性伴侣（male_* 系列）可选。
 
 ## 核心能力：语境感知图片生成
 

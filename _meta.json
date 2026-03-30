@@ -1,10 +1,10 @@
 {
   "ownerId": "kn75dvek1dkfz0r0xwdp4xtc2983qg44",
   "slug": "my-companion",
-  "version": "2.3.0",
+  "version": "2.5.0",
   "publishedAt": 1774790000000,
   "namespace": "ryanbihai",
-  "changelog": "v2.3: 新增男性伴侣选项（4种性格），支持男女伴侣自由切换",
+  "changelog": "v2.5: 全面支持中英双语，自动检测用户语言切换回复（中文字符≥50%用中文）",
   "tags": ["AI伴侣", "情感陪伴", "中文伴侣", "AI girlfriend", "AI boyfriend", "智能伴侣", "聊天机器人", "情感机器人", "AI聊天", "虚拟恋人", "ai-companion", "emotional-ai", "chinese", "中文AI", "记忆功能", "性格切换", "avatar", "动态图片", "每日配图", "男女朋友", "恋爱模拟"],
   "language": "zh-CN"
 }
