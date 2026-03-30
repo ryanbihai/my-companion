@@ -1,10 +1,10 @@
 {
   "ownerId": "kn75dvek1dkfz0r0xwdp4xtc2983qg44",
   "slug": "my-companion",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "publishedAt": 1774790000000,
   "namespace": "ryanbihai",
-  "changelog": "v2.6.0: 补充声明与依赖安全说明，明确 memory/avatars/USER.md/channel 权限",
+  "changelog": "v2.7.0: 添加触发词+首次使用引导流程，收集用户偏好（性格/称呼/语言）",
   "tags": [
     "AI伴侣",
     "情感陪伴",
